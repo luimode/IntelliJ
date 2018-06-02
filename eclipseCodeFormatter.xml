@@ -1,0 +1,28 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="eclipseVersion" value="ECLIPSE_44" />
+          <option name="enableJSFormatting" value="true" />
+          <option name="id" value="1452265149859" />
+          <option name="name" value="default" />
+          <option name="pathToConfigFileJS" value="$USER_HOME$/eclipse/javascript-code formatter.xml" />
+          <option name="pathToConfigFileJava" value="$USER_HOME$/eclipse/java-code-formatter.xml" />
+          <option name="selectedJavaProfile" value="MAN Code Formatter" />
+          <option name="selectedJavaScriptProfile" value="MAN Profile" />
+          <option name="useOldEclipseJavaFormatter" value="true" />
+        </Settings>
+        <Settings>
+          <option name="eclipseVersion" value="ECLIPSE_44" />
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1454498539629" />
+          <option name="name" value="MAN" />
+          <option name="pathToConfigFileJava" value="$USER_HOME$/workspace/dbf/code-style/backend/java-code-formatter.xml" />
+          <option name="selectedJavaProfile" value="MAN Code Formatter" />
+          <option name="useOldEclipseJavaFormatter" value="true" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>
