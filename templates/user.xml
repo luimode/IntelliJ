@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="chait" value="it('$DESC$', () =&gt; {&#10;    $END$&#10;});" description="chai it block" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+</templateSet>
