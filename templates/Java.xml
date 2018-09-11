@@ -1,9 +1,9 @@
 <templateSet group="Java">
-  <template name="fore" value="for" description="for each in Iterable" toReformat="false" toShortenFQNames="true">
+  <template name="conv" value="Value$Type$ $abbr$ = new Value$Type$();&#10;toExternalEntity($abbr$, state::set$Type$, sp.get$Type$(),&#10;                sp.get$Type$()::getValue, $abbr$::setValue);" description="add conversion" toReformat="false" toShortenFQNames="true">
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="abbr" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
     </context>
   </template>
 </templateSet>
