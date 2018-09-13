@@ -6,4 +6,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="valfid" value="public static final ValueField.DoubleValueField&lt;Value$fieldName$&gt; $fieldName$ =&#10;            new ValueField.DoubleValueField&lt;&gt;(Value$fieldName$::new, Value$fieldName$::setValue);" description="value field template" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="valfii" value="public static final ValueField.IntegerValueField&lt;Value$fieldName$&gt; $fieldName$ =&#10;            new ValueField.IntegerValueField&lt;&gt;(Value$fieldName$::new, Value$fieldName$::setValue);" description="value field Integer" toReformat="false" toShortenFQNames="true">
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
